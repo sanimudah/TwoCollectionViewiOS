@@ -13,6 +13,11 @@
 		22DF2C922880928C00B261DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DF2C902880928C00B261DB /* Main.storyboard */; };
 		22DF2C942880928D00B261DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DF2C932880928D00B261DB /* Assets.xcassets */; };
 		22DF2C972880928D00B261DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DF2C952880928D00B261DB /* LaunchScreen.storyboard */; };
+		22DF2C9F2880931B00B261DB /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF2C9E2880931B00B261DB /* ViewControllerViewModel.swift */; };
+		22DF2CA12880948500B261DB /* BigCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF2CA02880948500B261DB /* BigCollectionViewDataSource.swift */; };
+		22DF2CA32880949A00B261DB /* BigCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF2CA22880949A00B261DB /* BigCollectionViewDelegate.swift */; };
+		22DF2CA52880968D00B261DB /* SmallCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF2CA42880968D00B261DB /* SmallCollectionViewDataSource.swift */; };
+		22DF2CA7288096A200B261DB /* SmallCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF2CA6288096A200B261DB /* SmallCollectionViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		22DF2C932880928D00B261DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DF2C962880928D00B261DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DF2C982880928D00B261DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DF2C9E2880931B00B261DB /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		22DF2CA02880948500B261DB /* BigCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		22DF2CA22880949A00B261DB /* BigCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		22DF2CA42880968D00B261DB /* SmallCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		22DF2CA6288096A200B261DB /* SmallCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCollectionViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				22DF2C932880928D00B261DB /* Assets.xcassets */,
 				22DF2C952880928D00B261DB /* LaunchScreen.storyboard */,
 				22DF2C982880928D00B261DB /* Info.plist */,
+				22DF2C9E2880931B00B261DB /* ViewControllerViewModel.swift */,
+				22DF2CA02880948500B261DB /* BigCollectionViewDataSource.swift */,
+				22DF2CA22880949A00B261DB /* BigCollectionViewDelegate.swift */,
+				22DF2CA42880968D00B261DB /* SmallCollectionViewDataSource.swift */,
+				22DF2CA6288096A200B261DB /* SmallCollectionViewDelegate.swift */,
 			);
 			path = TwoCollectionView;
 			sourceTree = "<group>";
@@ -141,6 +156,11 @@
 				22DF2C8F2880928C00B261DB /* ViewController.swift in Sources */,
 				22DF2C8B2880928C00B261DB /* AppDelegate.swift in Sources */,
 				22DF2C8D2880928C00B261DB /* SceneDelegate.swift in Sources */,
+				22DF2CA12880948500B261DB /* BigCollectionViewDataSource.swift in Sources */,
+				22DF2CA52880968D00B261DB /* SmallCollectionViewDataSource.swift in Sources */,
+				22DF2CA7288096A200B261DB /* SmallCollectionViewDelegate.swift in Sources */,
+				22DF2CA32880949A00B261DB /* BigCollectionViewDelegate.swift in Sources */,
+				22DF2C9F2880931B00B261DB /* ViewControllerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
