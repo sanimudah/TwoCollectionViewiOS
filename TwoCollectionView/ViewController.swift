@@ -9,21 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var collectionViewBig: UICollectionView!
+    @IBOutlet weak var collectionViewSmall: UICollectionView!
+    
     let viewModel: ViewControllerViewModel
     
     required init?(coder: NSCoder) {
         self.viewModel = ViewControllerViewModel()
         super.init(coder: coder)
     }
-    
-    @IBOutlet weak var collectionViewBig: UICollectionView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         collectionViewBig.delegate = viewModel.bigDelegate
         collectionViewBig.dataSource = viewModel.bigDataSource
+        
+        collectionViewSmall.delegate = viewModel.smallDelegate
+        collectionViewSmall.dataSource = viewModel.smallDataSource
+        
     }
 
 

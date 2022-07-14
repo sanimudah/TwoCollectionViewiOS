@@ -8,10 +8,6 @@
 import Foundation
 import UIKit
 
-class BigCollectionViewDelegate: NSObject {
-    
-}
-
-extension BigCollectionViewDelegate: UICollectionViewDelegate {
+class BigCollectionViewDelegate: NSObject, UICollectionViewDelegate {
     
 }

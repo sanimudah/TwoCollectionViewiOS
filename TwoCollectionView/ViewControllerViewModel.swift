@@ -12,8 +12,14 @@ class ViewControllerViewModel {
     var bigDataSource: BigCollectionViewDataSource
     var bigDelegate: BigCollectionViewDelegate
     
+    var smallDataSource: SmallCollectionViewDataSource
+    var smallDelegate: SmallCollectionViewDelegate
+    
     init() {
         bigDataSource = BigCollectionViewDataSource()
         bigDelegate = BigCollectionViewDelegate()
+        
+        smallDataSource = SmallCollectionViewDataSource()
+        smallDelegate = SmallCollectionViewDelegate()
     }
 }
